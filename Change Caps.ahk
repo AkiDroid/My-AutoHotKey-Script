@@ -18,7 +18,7 @@ CapsLock & u::
         Send, {PgUp}
     else
         Send, +{PgUp}
-Retrun
+Return
 
 ;======================================= i = Home
 CapsLock & i::
