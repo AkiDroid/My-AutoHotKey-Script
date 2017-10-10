@@ -26,7 +26,7 @@ CapsLock & i::
         Send, {Home}
     else
         Send, +{Home}
-Retrun
+Return
 
 ;======================================= o = End
 CapsLock & o::
@@ -34,7 +34,7 @@ CapsLock & o::
         Send, {End}
     else
         Send, +{End}
-Retrun
+Return
 
 ;======================================= p = PageDown
 CapsLock & p::
@@ -69,7 +69,7 @@ CapsLock & h::
 Return
 
 ;======================================= l = Right
-CapsLock & p::
+CapsLock & l::
     if GetKeyState("alt") = 0
         Send, {Right}
     else
