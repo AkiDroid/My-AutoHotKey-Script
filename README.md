@@ -1,3 +1,6 @@
+
+ChangeCapslock.json 是mac上karabiner的配置文件，改的键位和autohotkey在windows上的一样
+
 |原|现|
 | --- |:---:|
 |`|CapsLock|
