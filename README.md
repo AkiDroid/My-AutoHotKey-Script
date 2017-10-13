@@ -16,9 +16,11 @@
 |v|ctrl-v|
 |x|ctrl-x|
 |a|ctrl-a|
+|s|ctrl-s|
 |z|ctrl-z|
 |y|ctrl-y|
 |;|_|
 |'|=|
 |{|(|
 |}|)|
+|shift + CapsLock|shift + ESC|

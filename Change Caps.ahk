@@ -105,9 +105,15 @@ CapsLock & x:: Send, ^x               ; X = Cut
 CapsLock & c:: Send, ^c               ; C = Copy
 CapsLock & v:: Send, ^v               ; V = Paste
 CapsLock & a:: Send, ^a               ; A = Select All
+CapsLock & s:: Send, ^s               ; S = Save
 CapsLock & y:: Send, ^y               ; Y = Redo
 
 ;======================================= CapsLock = ESC
 CapsLock::
     Send, {ESC}
+Return
+
+;======================================= shift + capslock = shift + ESC
+Shift & CapsLock::
+    Send, +{ESC}
 Return
